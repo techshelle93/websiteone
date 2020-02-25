@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>page d</title>
+  </head>
+  <style>
+      * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-image: url("img/japan.jpg");
+      background-position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;  
+      height: 100%;
+    
+    }
+    
+    
+    .text-block {
+      position: absolute;
+      bottom: -25px;
+      right: -25px;
+      left: -5px;
+      background: black;
+      color: lightcoral;
+      padding-left: 20px;
+      padding-right: 20px;
+      opacity: 0.5;
+    }
+
+    .btn {
+      text-decoration: none;
+      color:  lightcoral;
+      font-size: 60px;
+      padding: 20px;
+      float: right;
+    }
+    h2 {
+      text-align: left;
+      font-size: 40px;
+    }
+    p {
+      font-weight: bold;
+      margin: 30px;
+    }
+    @media screen and (max-width: 768px) {
+      .text-block {
+        position: fixed;
+        padding: 8px ;
+        top: 410px;
+        
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      body {
+        position: relative;
+        height: 425px;
+        
+      }
+    }
+
+  </style>
+  <body>
+      <div class="container">
+          <div class="text-block">
+            <h2>Cherry Blossoms in Japan</h2>
+            <p>
+              Cherry blossoms look so delicate, beautiful, and graceful plant.
+              That I had to do a photo dedicated to this lovely tree.
+              <a href="index.html" class="btn">Home</a>
+            </p>
+  </body>
+</html>

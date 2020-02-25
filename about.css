@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+    position: relative;
+    background: black;
+    padding-left: 5em;
+}
+p {
+    text-align: justify;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 25px;
+    background-color: #0A3DD0;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+h2 {
+    text-align: center;
+    padding: 30px;
+    background-color: #0A3DD0;
+}
